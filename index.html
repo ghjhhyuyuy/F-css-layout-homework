@@ -21,13 +21,14 @@
     <nav>Science</nav>
     <nav>Health</nav>
   </header>
-  <main>
-    <aside>
+  <main class="main">
+    <aside class="leftpart">
       <section>
         <h1>About</h1>
-        <p>hahahahhahahah</p>
+        <p>为边框指定宽度有两种方法：可以指定长度值，比如 2px 或 0.1em；或者使用 3 个关键字之一，它们分别是 thin 、medium（默认值） 和 thick。
+          注意：CSS 没有定义 3 个关键字的具体宽度，所以一个用户代理可能把 thin 、medium 和 thick 分别设置为等于 5px、3px 和 2px，而另一个用户代理则分别设置为 3px、2px 和 1px。</p>
       </section>
-      <section>
+      <section class="change_direction">
         <h1>Archives</h1>
         <a>2020</a>
         <a>2020</a>
@@ -37,36 +38,45 @@
         <a>2020</a>
       </section>
     </aside>
-    <section>
-      <article>
+    <section class="articles">
+      <article class="article halfhight">
         <section>Thumbnall</section>
         <h1>Article 1</h1>
-        <p>asdaefafasfasasffsaf</p>
+        <p>align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。</p>
         <a>View details</a>
       </article>
-      <article>
+      <article class="article morehight">
         <section>Thumbnall</section>
         <h1>Article 2</h1>
-        <p>asdaefafasfasasffsaf</p>
+        <p>容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。
+          项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。
+          容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。
+          项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。</p>
         <a>View details</a>
       </article>
-      <article>
+      <article class="article halfhight test">
         <section>Thumbnall</section>
         <h1>Article 3</h1>
         <p>asdaefafasfasasffsaf</p>
         <a>View details</a>
       </article>
     </section>
-    <aside>
+    <aside class="login">
+      <section class="change_direction">
+        <input type="text">
       <input type="text">
-      <input type="text">
-      <input type="checkbox">
+      </section>
+      <section>
+        <input type="checkbox">
       <span>Remember me</span>
+      </section>
       <button>Sign in</button>
     </aside>
   </main>
-  <footer>
+  <footer class="footer">
+    <section>
     Advanced CSS homework built by <a>@Your Name</a>
+    </section>
     <a>Back to top</a>
   </footer>
   <script src="src/app.js"></script>
