@@ -23,7 +23,7 @@
   </header>
   <main class="main">
     <aside class="leftpart">
-      <section>
+      <section class="lightgray">
         <h1>About</h1>
         <p>为边框指定宽度有两种方法：可以指定长度值，比如 2px 或 0.1em；或者使用 3 个关键字之一，它们分别是 thin 、medium（默认值） 和 thick。
           注意：CSS 没有定义 3 个关键字的具体宽度，所以一个用户代理可能把 thin 、medium 和 thick 分别设置为等于 5px、3px 和 2px，而另一个用户代理则分别设置为 3px、2px 和 1px。</p>
@@ -40,37 +40,45 @@
     </aside>
     <section class="articles">
       <article class="article halfhight">
-        <section>Thumbnall</section>
-        <h1>Article 1</h1>
+        <section class="top">Thumbnall</section>
+        <section class="padding">
+          <h1>Article 1</h1>
         <p>align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。</p>
-        <a>View details</a>
+        <a class="bottom">View details</a>
+        </section>
       </article>
       <article class="article morehight">
-        <section>Thumbnall</section>
-        <h1>Article 2</h1>
+        <section class="top">Thumbnall</section>
+        <section class="padding">
+          <h1>Article 2</h1>
         <p>容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。
           项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。
           容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。
-          项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。</p>
-        <a>View details</a>
+          项目默认沿主轴排列。单个项目占据的主轴空间叫做main size</p>
+        <a class="bottom">View details</a>
+        </section>
+        
       </article>
       <article class="article halfhight test">
-        <section>Thumbnall</section>
-        <h1>Article 3</h1>
+        <section class="top">Thumbnall</section>
+        <section class="padding">
+          <h1>Article 3</h1>
         <p>asdaefafasfasasffsaf</p>
-        <a>View details</a>
+        <a class="bottom">View details</a>
+        </section>
+        
       </article>
     </section>
-    <aside class="login">
+    <aside class="login lightgray">
       <section class="change_direction">
-        <input type="text">
-      <input type="text">
+        <input class="input" type="text" placeholder="Email address">
+      <input class="input" type="text" placeholder="Password">
       </section>
       <section>
         <input type="checkbox">
       <span>Remember me</span>
       </section>
-      <button>Sign in</button>
+      <button class="button">Sign in</button>
     </aside>
   </main>
   <footer class="footer">
