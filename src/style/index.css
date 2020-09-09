@@ -27,3 +27,11 @@ ul {
   justify-content: space-evenly;
   align-items: center;
 }
+
+aside {
+  background-color: blue;
+}
+
+article {
+  background-color: blueviolet;
+}
